@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+	<!-- Respond.js для IE8 (media queries) -->
+	<!-- Предупреждение: Respond.js не будет работать при просмотре страницы через file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    <title>Studio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo  header-IC">
+                IC "Repair Design Project"
+            </div>
+            <nav>
+                <ul class="header-navigation">
+                    <li class="header-navigation_item"><a href="#">HOME</a></li>
+                    <li class="header-navigation_item"><a href="#">PROJECTS</a></li>
+                    <li class="header-navigation_item"><a href="#">MEASUREMENT</a></li>
+                    <li class="header-navigation_item"><a href="#">TEAM</a></li>
+                    <li class="header-navigation_item"><a href="#">REVIEWS</a></li>
+                    <li class="header-navigation_item"><a href="#">CONTACTS</a></li>
+                </ul>           
+            </nav>
+            <a class="header_number" href="tel:8(000)000-00-00">+7 (000) 000-00-00</a>
+            <button class="button pointer">Request a call</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <h1 class="title">  <!-- у 1h свой марджин который схлопывается с марджином основного блока поэтому в классе title указываем марджин 0 -->
+                    Matrix Matrix in the <br>city of <span class="logo">Matrix</span> 
+                </h1>
+                <p class="subtitle ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et numquam ducimus ratione? Voluptas, architecto. Molestias reprehenderit maxime impedit rem deleniti officiis quas non hic modi doloribus dolore nam, illum quae!
+                </p>              
+                <div class="hero_button">
+                    <button class="button pointer">CALCULATE THE COST</button>
+                    <button class="button_transparent pointer">SUBMIT YOUR APPLICATION</button>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+                
+        <section class="window picture-window">
+            <div class="container flex">
+                <div class="window-title">
+                    <div class="margin-top20">
+                        <h1 class="title"><span class="logo">Completed <br>projects</span></h1>
+                        <p class="window-subtitle margin-left width-height" style="padding-right:20px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio, sunt dolores totam sint vero asperiores at assumenda minus, magni sapiente incidunt laborum quasi inventore sit. Amet, similique. Iste, officiis?
+                        </p>
+                    </div>                              
+                    <div class="margin-left flex margin-top333">
+                        <div class="">
+                            <div class="margin-bottom">
+                                <h2 class="window-title">
+                                    City:
+                                </h2>
+                                <p class="window-subtitle">
+                                    Rostov-on-Don <br>LCD admiral
+                                </p>
+                            </div>
+                            <div>
+                                <h2 class="window-title ">
+                                    Repair time:
+                                </h2>
+                                <p class="window-subtitle">
+                                    3.5 months
+                                </p>
+                            </div>                            
+                        </div>                    
+                        <div class="window_margin_left_subtitle">
+                            <div class="margin-bottom2">
+                                <h2 class="window-title">
+                                    apartment area:
+                                </h2>
+                                <p class="window-subtitle">
+                                    81 m2
+                                </p>
+                            </div>
+                            <div class="">
+                                <h2 class="window-title ">
+                                    Repair Cost:
+                                </h2>
+                                <p class="window-subtitle">
+                                    Upon request
+                                </p>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="dots margin-left margin_dot_top flex">
+                        <img src="img/left.svg" alt="" class="leftArr pointer">         
+                        <div class="dot active" data-index="0" style="margin-left: 12px;"></div>
+                        <div class="dot margin-dot-dot" data-index="1" ></div>
+                        <div class="dot" data-index="2" style="margin-right: 12px;"></div>
+                        <img src="img/right.svg" alt="" class="rightArr pointer">                                           
+                    </div>
+                </div>
+                <div class="margin-top107">
+                    <nav class="padding-nav">
+                        <ul class="window-list">
+                            <li class="window-navigation_item"><span class="logo border-bottom pointer admiral">Rostov-on-Don, Admiral</span></li>
+                            <li class="window-navigation_item margin-left60 pointer"><span class="thieves">Sochi Thieves</span></li>
+                            <li class="window-navigation_item pointer"><span class="patriotic">Rostov-on-Don Patriotic</span></li>
+                        </ul>
+                    </nav>
+                    <div class="slider-container">
+                        <div class="slider">
+                            <img src="img/firstPic.png" alt="window" width="680" height="483" class="margin-left50">
+                            <img src="img/secondPic.png" alt="window" width="680" height="483" class="margin-left50">
+                            <img src="img/thirdPic.png" alt="window" width="680" height="483" class="margin-left50">
+                        </div>
+                    </div>                   
+                </div>                
+            </div>             
+        </section> 
+    
+        <section class="online-control ">            
+            <div class="online-control-center container">                
+                <div class="imgwork"><div class="imgplay"><img src="img/Group 8.png" alt=""></div></div>                   
+                <div class="margin-line"><img src="img/line.svg" alt="line"></div>
+                <div class="online-control-text">
+                    <p class="">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eaque ratione. Consequuntur excepturi facilis modi facere quasi! Consequatur labore eligendi veritatis dolores, itaque officia nisi obcaecati hic repellat commodi impedit?
+                    </p>
+                </div>
+                
+                <div class="flex margin-top107">
+                    <div>
+                        <p class="online-control-subtitle">Name</p>
+                        <input type="text" name="Name" value="What is your name: " class="online-control-input">
+                    </div>
+                    <div class="margin-left60">
+                        <p class="online-control-subtitle">Phone</p>
+                        <input type="tel" name="Phone" value="Your phone number: " class="online-control-input">
+                    </div>
+                    <button class="online-control-button margin-left60 pointer">Submit</button>                        
+                </div> 
+                <div class="first-checkbox">
+                    <label class="label">
+                      <input type="checkbox" class="checkbox" checked>
+                      <span class="fake"></span>
+                      <span class="checkbox-text">I agree to the processing of personal data.</span>
+                    </label>
+                </div>  
+            </div>            
+        </section>
+        <section class="types ">
+            <div class="types-wrapper container types-special">
+                <h1 class="types-title">TYPES OF REPAIR</h1>
+                <div class="types-vec-img">
+                    <img src="img/Group 11.4.svg" alt="">
+                </div>
+                <div class="types-content flex">
+                    <div class="types-wrapper types-bottom">
+                        <div class="types-content-img"></div>
+                        <div class="types-content-text">
+                            <h3 class="types-content-title">Redecorating</h3>
+                            <ul class="types-content-list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                            <button class="types-content-button pointer">from 900 rub / m2</button>
+                        </div>            
+                    </div>            
+                    <div class="types-wrapper margin-left30 types-bottom">
+                        <div class="types-content-img2"></div>
+                        <div class="types-content-text">
+                            <h3 class="types-content-title">Overhaul</h3>
+                            <ul class="types-content-list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                            <button class="types-content-button pointer">from 1800 rub / m2</button>
+                        </div>            
+                    </div> 
+                    <div class="types-wrapper margin-left30">
+                        <div class="types-content-img3"></div>
+                        <div class="types-content-text">
+                            <h3 class="types-content-title">Designer Repair</h3>
+                            <ul class="types-content-list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                            <button class="types-content-button pointer">from 4000 rub / m2</button>
+                        </div>            
+                    </div> 
+                </div>
+            </div>            
+        </section>
+        <section class="menu menu-content">
+            <div class="  container flex">
+                <div class=" margin-left150">
+                    <div class="menu-content-c menu-flex margin-bottom114">
+                        <div><button class="menu-button pointer">01</button></div>
+                        <div>
+                            <p class="menu-content-text">
+                                Our specialist will arrive for measurements per day contact, or appoint a date convenient for you
+                            </p>
+                        </div>                                                            
+                    </div>
+                    <div class="menu-content-c menu-flex margin-bottom114">
+                        <div><button class="menu-button pointer">02</button></div>
+                        <div>
+                            <p class="menu-content-text">
+                                Free metering
+                            </p>
+                        </div>                                                            
+                    </div>
+                    <div class="menu-content-c menu-flex margin-bottom114">
+                        <div><button class="menu-button pointer">03</button></div>
+                        <div>
+                            <p class="menu-content-text">
+                                Free consultation
+                            </p>
+                        </div>                                                            
+                    </div>
+                    <div class="menu-content-c menu-flex margin-bottom50">
+                        <div><button class="menu-button pointer">04</button></div>
+                        <div>
+                            <p class="menu-content-text">
+                                Get a cost estimate and <br>the timing of your future repairs
+                            </p>
+                        </div>                                                            
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="menu-connection_form">
+                        <p class="menu-connection_form-text">
+                            Leave a request for free <br>departure of the measurer
+                        </p>
+                        <div>
+                            <p class="menu-connection_form-little_text">Name</p>
+                            <div class="menu_border-bottom"><input type="text" name="Name" placeholder="What is your name: " class="menu-connection_form-input"></div>
+                        </div>
+                        <div>
+                            <p class="menu-connection_form-little_text">Phone</p>
+                            <div class="menu_border-bottom"><input type="tel" name="Phone number" placeholder="Your phone number:" class="menu-connection_form-input"></div>
+                        </div>
+                        <div><p class="menu-connection_form-little_text">Email</p>
+                            <div class="menu_border-bottom"><input type="email" name="Email" placeholder="Your email" class="menu-connection_form-input"></div>
+                        </div>
+                        <div class="menu-checkbox-wrapper">
+                            <label class="label">
+                              <input type="checkbox" class="checkbox" checked>
+                              <span class="fake"></span>
+                              <span class="menu-checkbox-text">I agree to the processing of personal data.</span>
+                            </label>
+                        </div>
+                        <div class="menu-checkbox-wrapper">
+                            <button class="menu-button2 pointer">Call the measurer</button>
+                        </div>  <!-- Здесь будет кнопка прижатая к правому краю  -->
+                    </div>
+                    <div class="flex pig-wrapper">
+                        <div><img src="img/pig.png" alt="pig"></div>
+                        <div>
+                            <p class="menu-pig_text">Help save 10 - 20% of the<br> 
+                            cost of materials
+                            </p>
+                        </div>
+                    </div>                    
+                </div>              
+            </div>
+        </section>
+        <section class="pictures fon ">
+            <div class="grey_fon">
+                <div class=" container">
+                    <div class="flex">
+                        <div class="margin-top137">
+                            <h1 class="title2 margin-left30">
+                                <span class="logo ">We realize your <br>wildest fantasies</span> 
+                            </h1>
+                            <ul class="fon_list">
+                                <li><span class="american_classic">American classic</span></li>
+                                <li>Empire</li>
+                                <li>Classical</li>
+                                <li>Loft</li>
+                                <li>Minimalism</li>
+                                <li>Provence</li>
+                                <li>Romanticism</li>
+                                <li>Scandinavian style</li>
+                                <li>Mediterranean style</li>
+                                <li>High tech</li>
+                                <li>Eclecticism</li>
+                            </ul>
+                        </div>
+                        <div class="pict-block">
+                            <div class="pic_clock"><img src="img/clock.png" alt="clock"></div>
+                            <div class="pic-blactv"><img src="img/blacktv.png" alt="blacktv"></div>
+                        </div>
+                        <div class="pict-block2">
+                            <div class="pic-lights-wall"><img src="img/lights-wall.png" alt="picture"></div>
+                            <div><img src="img/flowers.png" alt="flowers"></div>
+                        </div>
+                        <div class="empty_pic">
+                            <div><img src="img/left_round.png" alt="left" ></div>
+                            <div><img src="img/right_round.png" alt="right" ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <section class="clients  ">
+            <div class="container types-wrapper">
+                <h2 class="clients-title">our clients</h2>
+                <img src="img/hands.svg" alt="hands">
+                <p class="clients-text">80% of our customers recommend us to their<br>
+                    friends and family.
+                </p>
+                <div class="clients-people flex ">
+                    <div class="wrapper-people">
+                        <div class="photo_and_title flex">
+                            <div class="people-img" style="background: url(img/ag_sm.jpg); background-size: cover; width: 76px; height: 76px; border-radius: 50%;"></div>
+                            <!-- <img src="" alt="" class="people-img" style="width: 76px; height: 76px; background-size: auto 76px; border-radius: 50%; background: url(img/ag_sm.jpg);"> -->
+                            <h3 class="people-subtitle">
+                                Agent<br>
+                                Smith
+                            </h3>
+                        </div>
+                        <div class="people-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eaque modi consequatur alias illo eum blanditiis est laboriosam unde, eius veritatis repudiandae accusamus necessitatibus, itaque voluptatibus vero asperiores architecto soluta!
+                            </p>
+                        </div>
+                        <div class="wrapper-people-button">
+                            <button class="people-button flex pointer">
+                                <img src="img/Group 21.4.svg" alt="group21.4" >
+                                <!-- <img src="img/40 m2.svg" alt="40 m2.svg" class="people-icons"> -->
+                                <p class="people-button-text people-icons">40 m<sup>2</sup></p>
+                                <img src="img/Vector 2.svg" alt="vector2" class="people-icons">
+                                <img src="img/Group.svg" alt="group" class="people-icons">
+                                <p class="people-button-text people-icons" style="padding-top: 9px;">48 DAYS</p>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-people margin-left54">
+                        <div class="photo_and_title flex">
+                            <div class="people-img" style="background: url(img/ag_sm.jpg); background-size: cover; width: 76px; height: 76px; border-radius: 50%;"></div>
+                            <!-- <img src="" alt="" class="people-img" style="width: 76px; height: 76px; background-size: auto 76px; border-radius: 50%; background: url(img/ag_sm.jpg);"> -->
+                            <h3 class="people-subtitle">
+                                Agent<br>
+                                Smith
+                            </h3>
+                        </div>
+                        <div class="people-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eaque modi consequatur alias illo eum blanditiis est laboriosam unde, eius veritatis repudiandae accusamus necessitatibus, itaque voluptatibus vero asperiores architecto soluta!
+                            </p>
+                        </div>
+                        <div class="wrapper-people-button">
+                            <button class="people-button flex pointer">
+                                <img src="img/Group 21.4.svg" alt="group21.4" >
+                                <!-- <img src="img/40 m2.svg" alt="40 m2.svg" class="people-icons"> -->
+                                <p class="people-button-text people-icons">40 m<sup>2</sup></p>
+                                <img src="img/Vector 2.svg" alt="vector2" class="people-icons">
+                                <img src="img/Group.svg" alt="group" class="people-icons">
+                                <p class="people-button-text people-icons" style="padding-top: 9px;">48 DAYS</p>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-people margin-left54">
+                        <div class="photo_and_title flex">
+                            <div class="people-img" style="background: url(img/ag_sm.jpg); background-size: cover; width: 76px; height: 76px; border-radius: 50%;"></div>
+                            <!-- <img src="" alt="" class="people-img" style="width: 76px; height: 76px; background-size: auto 76px; border-radius: 50%; background: url(img/ag_sm.jpg);"> -->
+                            <h3 class="people-subtitle">
+                                Agent<br>
+                                Smith
+                            </h3>
+                        </div>
+                        <div class="people-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eaque modi consequatur alias illo eum blanditiis est laboriosam unde, eius veritatis repudiandae accusamus necessitatibus, itaque voluptatibus vero asperiores architecto soluta!
+                            </p>
+                        </div>
+                        <div class="wrapper-people-button">
+                            <button class="people-button flex pointer">
+                                <img src="img/Group 21.4.svg" alt="group21.4" >
+                                <!-- <img src="img/40 m2.svg" alt="40 m2.svg" class="people-icons"> -->
+                                <p class="people-button-text people-icons">40 m<sup>2</sup></p>
+                                <img src="img/Vector 2.svg" alt="vector2" class="people-icons">
+                                <img src="img/Group.svg" alt="group" class="people-icons">
+                                <p class="people-button-text people-icons" style="padding-top: 9px;">48 DAYS</p>
+                            </button>
+                        </div>
+                    </div>
+                </div> 
+                <div class="container types-wrapper clients-fon2"></div>         
+            </div>                            
+        </section>
+        <section class="map ">
+            <div class="map-wrapper container">
+                <div class="map-form">
+                    <h2 class="map-title">have any questions?</h2>
+                    <div class="map-inputs_with_text margin-left-right min-width">
+                        <div class="border-bottom-input min-width231">
+                            <p class="map-input-suptitle">Name</p>
+                            <input type="text" name="map-name" value="What is your name:" class="map-input">
+                        </div>
+                        <div class="border-bottom-input min-width231">
+                            <p class="map-input-suptitle">Phone</p>
+                            <input type="tel" name="map-phone" value="Your phone number:" class="map-input">
+                        </div>
+                    </div>
+                    <div class="border-bottom-input min-width">
+                            <p class="map-input-suptitle">Question</p>
+                            <input type="text" name="map-Question" value="I want to know:" class="map-input">
+                    </div>
+                    
+                        <label class="label">
+                          <input type="checkbox" class="checkbox" checked>
+                          <span class="fake"></span>
+                          <span class="menu-checkbox-text">I agree to the processing of personal data.</span>
+                        </label>
+                    
+                    <button class="map-button margin-top37 margin-bottom35 pointer">Submit</button> 
+                </div>
+                <h1 class="map-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officiis temporibus iusto harum assumenda quam vero! Labore, ipsum perferendis magni voluptates eligendi, nisi porro inventore facere possimus nesciunt, rem cum!<br>
+                    Decorum Tel +7 (928) 768 32 29
+                </h1>               
+                <div class="flex margin-bottom50">
+                    <img src="img/convert.svg" alt="convert"><img src="img/foto.svg" alt="foto" class="margin-left10">
+                </div>
+                <div class="map-img margin-bottom50">
+                    <img src="img/map.png" alt="map">
+                    <img src="img/map2.png" alt="map">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container header-content">
+            <div class="logo  ">
+                IC "Repair Design Project"
+            </div>
+            <nav>
+                <ul class="header-navigation">
+                    <li class="header-navigation_item"><a href="#">HOME</a></li>
+                    <li class="header-navigation_item"><a href="#">PROJECTS</a></li>
+                    <li class="header-navigation_item"><a href="#">MEASUREMENT</a></li>
+                    <li class="header-navigation_item"><a href="#">TEAM</a></li>
+                    <li class="header-navigation_item"><a href="#">REVIEWS</a></li>
+                    <li class="header-navigation_item"><a href="#">CONTACTS</a></li>
+                </ul>           
+            </nav>
+            <a class="header_number" href="tel:8(000)000-00-00">+7 (000) 000-00-00</a>
+            <button class="button pointer">Request a call</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
