@@ -45,9 +45,19 @@ btn.addEventListener('click', () => {
                     _page: input1,
                     _limit: input2,
                 });
-                
-                fetch(`https://jsonplaceholder.typicode.com/photos${params}`);  
+                let arrayOfImages = []; 
+                // fetch(`https://jsonplaceholder.typicode.com/photos${params}`); 
+                arrayOfImages.push(fetch(`https://jsonplaceholder.typicode.com/photos${params}`)); 
+                localStorage.setItem('images', JSON.stringify(arrayOfImages));
+                const list = localStorage.getItem('images')
+                if(list){
+                initFunctionPaint(JSON.parse(list))
+                }
             }
         }
     }    
 });
+
+
+
+
