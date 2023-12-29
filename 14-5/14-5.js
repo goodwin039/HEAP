@@ -45,14 +45,24 @@ btn.addEventListener('click', () => {
                     _page: input1,
                     _limit: input2,
                 });
-                let arrayOfImages = []; 
-                // fetch(`https://jsonplaceholder.typicode.com/photos${params}`); 
-                arrayOfImages.push(fetch(`https://jsonplaceholder.typicode.com/photos${params}`)); 
-                localStorage.setItem('images', JSON.stringify(arrayOfImages));
-                const list = localStorage.getItem('images')
-                if(list){
-                initFunctionPaint(JSON.parse(list))
-                }
+                const myImage = document.querySelector("img");
+                fetch(`https://jsonplaceholder.typicode.com/photos?${params}`)
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error, status = ${response.status}`);
+                        }
+                        return response.blob();
+                    })
+                    .then((myBlob) => {
+                        const objectURL = URL.createObjectURL(myBlob);
+                        myImage.src = objectURL;
+                    })
+                    .catch((error) => {
+                        const p = document.createElement("p");
+                        p.appendChild(document.createTextNode(`Error: ${error.message}`));
+                        document.body.insertBefore(p, myImage);
+                      });
+
             }
         }
     }    
