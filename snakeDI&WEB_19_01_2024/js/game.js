@@ -35,7 +35,7 @@ const onload = () => {
     renderGame(); 
 
     let startTime = 0,
-        curentTime = 0,
+        currentTime = 0,
         time = 0,
         currentSecond = 0;
 
@@ -45,7 +45,7 @@ const onload = () => {
         }
 
         currentTime = new Date().getTime();
-        time = curentTime - startTime;
+        time = currentTime - startTime;
         currentSecond = Math.floor(time/200);//скорость змейки
 
         if(currentSecond > 0){
