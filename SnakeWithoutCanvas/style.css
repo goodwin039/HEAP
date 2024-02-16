@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+.snake-game-container {
+  display: grid;
+  grid-template-columns: repeat(10, 30px); /* 10 колонок по 30px каждая */
+}
+
+.snake-game-container div {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc; /* рамка между клетками */
+  box-sizing: border-box; /* учитываем рамку внутри размеров клетки */
+}
+
+.snake {
+  background-color: #0c0c0c;
+}
+.apple {
+  background-color: greenyellow;
+}
