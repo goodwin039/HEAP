@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 100px;
+}
+
+.field{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #cccccc;
+}
+
+.excel{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid;
+}
+
+.snakeBody{
+  background-color: aqua;
+  /* background: aqua;
+  background-size: cover; */
+  border-radius: 30%;
+}
+
+.head{
+  background-color: rgba(226, 39, 14, 0.726);
+  /* background: aqua;
+  background-size: cover; */
+  border-radius: 30%;
+}
+
+.mouse{
+  background-color: rgba(14, 226, 67, 0.726);
+  /* background: aqua;
+  background-size: cover; */
+  border-radius: 30%;
+}
